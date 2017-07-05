@@ -3,12 +3,12 @@
 namespace elementary\config\Runtime\Test;
 
 use elementary\config\Runtime\RuntimeConfig;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \elementary\config\Runtime\RuntimeConfig
  */
-class RuntimeConfigTest extends PHPUnit_Framework_TestCase
+class RuntimeConfigTest extends TestCase
 {
     /**
      * @var RuntimeConfig
